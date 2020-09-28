@@ -1,5 +1,9 @@
 class Student < User
 
-def initialize(knowledge)
-  @Kno
+  def initialize(knowledge)
+    @KNOWLEDGE = []
+  end 
+  
+  def learn 
+    << @KNOWLEDGE
 end
